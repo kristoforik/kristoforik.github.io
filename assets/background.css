@@ -1,0 +1,117 @@
+.background-class {
+    border: solid 3px transparent;
+    transition: all 2s ease;
+    display: flex;
+    /* background-color: rgb(145, 255, 153); */
+    /* background-color: rgb(223, 255, 229); */
+    background-color: rgb(242, 254, 244);
+    
+
+}
+.background-class:hover {
+    border: solid 3px green;
+    transition: all 1s ease;
+
+}
+
+.background-text {
+    width: 70%;
+}
+.background-text h3 {
+    margin: 8px 0px;
+}
+.background-text p {
+    margin: 0px 0px 30px 20px;
+}
+
+.background-photos {
+    width: 30%;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+
+.photoholder1 {
+    height: 30%;
+    position: relative;
+}
+.photoholder1 img {
+    position: absolute;
+    /* max-width: 80%;
+    max-height: 30%;
+    right: 50%;
+    transform: translateX(50%);
+    transition: 1s;
+    margin: 8px;
+    border-radius: 20px 30px; */
+    top: 50%;
+    right: -80%;
+    transform: translate(50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    /* border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%; */
+    border-radius: 20%;
+    transition: 0.5s;
+}
+
+.background-class:hover #floatingPhoto1{
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    transition: 1.5s;
+}
+.background-class:hover #floatingPhoto2{
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    
+    transition: 2.5s;
+}
+.background-class:hover #floatingPhoto3{
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    transition: 3.5s;
+}
+
+/* 
+.background-class:hover #floatingPhoto1{
+    right: 50%;
+    transition: 1s;
+}
+.background-class:hover #floatingPhoto2{
+    right: 50%;
+    transition: 2s;
+}
+.background-class:hover #floatingPhoto3{
+    right: 50%;
+    transition: 3s;
+}
+
+
+#floatingPhoto2 {
+    top: 35%;
+    right: -100%;
+    border-radius: 30px 0px 0px 30px;
+}
+#floatingPhoto3 {
+    top: 60%;
+    right: -100%;
+    border-radius: 70px 0px 0px 30px;
+} */
+/* #floatingPhoto1 {
+    top: 10%;
+    right: -100%;
+    border-radius: 30px 0px 0px 70px;
+} */

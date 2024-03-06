@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+/* 
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+.wrapper div {
+    padding: 8px;
+    /* font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger; */
+    
+}
+p {
+    font-size: 24px;
+}
+/* 
+.background-text {
+    padding: 8px;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6px;
+} */
+
+/* 
+.background-class,
+.solutions-class {
+    background: rgb(196, 248, 196);
+    transition: all 4s;
+    color: grey;
+    background: radial-gradient(circle, #ff9966, #ff5e62);
+    background: conic-gradient(from 40deg, #ff9966, #ff5e62);
+    background: linear-gradient(to left, #ff9966, #ff5e62);
+    background: conic-gradient(from 40deg, #ff9966, #ff5e62);
+    transition: all 2s ease;      
+    border: 4px solid #ff5e62; 
+} 
+.background-class,
+.solutions-class:hover {
+    background: conic-gradient(from 40deg, #ff9966, #ff5e62);
+}
+.background-class:hover {
+    background: conic-gradient(from 40deg, #ff9966, #ff5e62);
+    transition: background 4s ease;
+    color: white;
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    transition: all 2s ease;
+    background-position: 200px;
+    border: 4px solid green;
+} */

@@ -1,0 +1,84 @@
+.data-class {
+    /* background-color: rgb(2, 78, 2); */
+    /* background-image: url("photos/background-green.jpeg"); */
+    color: white;
+    /* background-color: rgb(228, 255, 234); */
+    background: radial-gradient(circle, #d7ffd7, #008000);
+    /* background: conic-gradient(from 20deg, #d7ffd7, #008000); */
+
+}
+.data-list {
+    display: grid;
+    grid-template-columns: 50% 50%; /* Two columns */
+    grid-template-rows: auto auto; /* Two rows */
+    padding: 20px;
+}
+.data-list li {
+    /* border: 4px solid brown; */
+    list-style: none;
+    margin: 25px;
+    padding: 10px;
+    padding-right: 0;
+    border-radius: 16px;
+    /* opacity: 80%; */
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+
+.data-list li:hover {
+    opacity: 1;
+    transition: all 1s;
+    transform: scale(1.04);
+    overflow: visible;
+}
+#li1 {
+    background-color: rgb(1, 54, 87);
+    background: repeating-linear-gradient(to right, rgb(9, 72, 110), rgb(2, 29, 46));
+}
+#li2 {
+    /* background-color: rgb(97, 28, 18); */
+    background: repeating-linear-gradient(to right, rgb(121, 66, 3),  rgb(70, 52, 5));
+}
+#li3 {
+    /* background-color: rgb(54, 49, 4); */
+    background: repeating-linear-gradient(to right, rgb(77, 71, 18), rgb(54, 49, 4));
+}   
+#li4 {
+    /* background-color: rgb(47, 5, 59); */
+    background: repeating-linear-gradient(to right, rgb(95, 12, 117), rgb(50, 3, 63));
+}
+
+
+.text-photo-class {
+    /* display: flex; */
+    /* position: relative;
+    overflow: hidden; */
+}
+.data-item h2 {
+    margin: 0px;
+    padding: 6px;
+    /* border-bottom: 1px solid rgb(78, 44, 0); */
+}
+.text-photo-class p {
+    margin: 0;
+    width: 60%;
+}
+.text-photo-class img {
+    /* height: 100px;
+    width: 160px; */
+    /* max-height: auto;
+    max-width: 40%; */
+    /* width: 400px;
+    height: 280px; */
+    max-width: 60%;
+    max-height: 90%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -25%;
+    border-radius: 25%;
+    z-index: 100;
+}

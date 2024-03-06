@@ -1,0 +1,65 @@
+.inspiration-class {
+    border: solid 3px transparent;
+    transition: all 2s ease;
+    /* display: flex; */
+    /* background-color: rgb(145, 255, 153); */
+    /* background-color: rgb(223, 255, 229); */
+    background-color: rgb(3, 56, 12);
+    /* color: aliceblue; */
+    color: rgb(226, 233, 233);
+    position: relative;
+    overflow: hidden;
+
+}
+.inspiration-class:hover {
+    transition: all 1s ease;
+
+}
+.inspiration-class::after {
+    font-family: Georgia, serif;
+    content: "?";
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -40px;
+    /* bottom: -10px;
+    right: -32px; */
+    font-size: 46em;
+    /* height: 100%;
+    font-size: 100%; */
+    font-weight: normal;
+    color: rgba(252, 243, 243, 0.233);
+}
+.inspiration-class p {
+    z-index: 100;
+}
+
+.solution-class {
+    /* background-color: rgb(211, 238, 215); */
+    /* background-color: rgb(242, 254, 244); */
+    /* background-color: rgb(58, 45, 4); */
+    /* background: linear-gradient(to bottom, rgb(58, 45, 4), rgb(121, 98, 25)); */
+    background: linear-gradient(to bottom right, rgb(58, 45, 4), rgb(121, 98, 25));
+
+
+    color: white;
+    
+}
+.solution-class ul li {
+    font-size: 24px;
+}
+.solution-class ul li a{
+    color: rgb(145, 143, 253);
+    text-decoration: none;
+}
+
+footer {
+    /* background-color: rgb(58, 45, 4); */
+    background-color: rgb(233, 254, 237);
+    margin: 0;
+    padding: 8px;
+}
+footer p {
+    margin: 0;
+}
